@@ -1,16 +1,23 @@
-# fwc_album_app
+# Flutter Album Fifa 2022
+## _Projeto da Semana Dart Week ([Academia do Flutter](https://academiadoflutter.com.br/))_
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-## Getting Started
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This project is a starting point for a Flutter application.
+Projeto lançado em Outubro de 2022 na versão do Dart Week (Academia do Flutter) Fifa.
 
-A few resources to get you started if this is your first Flutter project:
+Consiste em um sistema que é um album de figurinhas com várias coisas.
+- Arquitetura MVP (Model/ View/ Presenter)
+- Login com acesso ao backend (PHP) com token
+- Refresh Token
+- Criação de usuário
+- Controle de figurinha (Inserção, Alteração, Listagem, Pesquisa)
+- Entre outros...
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Fotos do Projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Layout](https://i.ibb.co/SNRzzhC/Captura-de-tela-2022-10-12-210900.png "Aulas Free")
+
+![Layout_Plus](https://i.ibb.co/TDyW0PL/Captura-de-tela-2022-10-12-210913.png "Aulas dentro da ADF")
+
