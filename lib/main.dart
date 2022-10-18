@@ -5,5 +5,5 @@ import 'app/core/config/env/env.dart';
 
 Future<void> main() async {
   await Env.i.load(); // ! Carrega o arquivo env antes de carregar o flutter
-  runApp(const FwcAlbumApp());
+  runApp(FwcAlbumApp());
 }
