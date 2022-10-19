@@ -44,7 +44,7 @@ class TextStyles {
   TextStyle get textSecondaryFontExtraBold =>
       TextStyle(fontWeight: FontWeight.w800, fontFamily: secondaryFont);
 
-  // * Outros
+// * Outros
   TextStyle get labelTextField => textSecondaryFontRegular.copyWith(
         color: ColorsApp.i.greyDart,
       );

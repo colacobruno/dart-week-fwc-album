@@ -14,7 +14,8 @@ abstract class HomeViewImpl extends State<HomePage>
   @override
   void initState() {
     widget.presenter.view = this;
-    WidgetsBinding.instance.addPersistentFrameCallback((timeStamp) {
+    // WidgetsBinding.instance.addPersistentFrameCallback((timeStamp) {
+    WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       // ! Quando terminar o build irá chamar o presenter
       widget.presenter.getUserData();
     });

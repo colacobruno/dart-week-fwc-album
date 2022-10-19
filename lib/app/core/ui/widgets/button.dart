@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fwc_album_app/app/core/ui/styles/button_styles.dart';
-
-import '../styles/text_styles.dart';
+import 'package:fwc_album_app/app/core/ui/styles/text_styles.dart';
 
 class Button extends StatelessWidget {
   final ButtonStyle style;
@@ -12,16 +11,15 @@ class Button extends StatelessWidget {
   final VoidCallback? onPressed;
   final bool outline;
 
-  const Button({
-    super.key,
-    required this.style,
-    required this.labelStyle,
-    required this.label,
-    this.width,
-    this.height,
-    this.onPressed,
-    this.outline = false,
-  });
+  const Button(
+      {super.key,
+      required this.style,
+      required this.labelStyle,
+      required this.label,
+      this.width,
+      this.height,
+      this.onPressed,
+      this.outline = false});
 
   Button.primary({
     super.key,
@@ -35,26 +33,25 @@ class Button extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final labeltext = Text(
+    final labelText = Text(
       label,
       style: labelStyle,
       overflow: TextOverflow.ellipsis,
     );
 
     return SizedBox(
-      // *precisa desse sizedBox para determinar o tamanho, já que o botão em si não tem essa propriedade
       width: width,
       height: height,
       child: outline
           ? OutlinedButton(
               onPressed: onPressed,
               style: style,
-              child: labeltext,
+              child: labelText,
             )
           : ElevatedButton(
               onPressed: onPressed,
               style: style,
-              child: labeltext,
+              child: labelText,
             ),
     );
   }

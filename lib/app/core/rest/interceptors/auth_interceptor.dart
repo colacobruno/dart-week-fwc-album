@@ -11,7 +11,7 @@ class AuthInterceptor extends Interceptor {
     final accessToken = sp.getString('accessToken');
     options.headers['Authorization'] = 'Bearer $accessToken';
 
-    handler.next(options);
+    handler.next(options); //! ATENÇÂO!!!!!
   }
 
   @override

@@ -69,7 +69,7 @@ class _LoginPageState extends LoginViewImpl {
                       decoration: const InputDecoration(
                         floatingLabelBehavior: FloatingLabelBehavior
                             .never, // O label nao sobe e sim some
-                        label: Text('Email'),
+                        label: Text('E-mail'),
                       ),
                       validator: Validatorless.multiple([
                         Validatorless.required('Obrigatório'),
@@ -92,7 +92,7 @@ class _LoginPageState extends LoginViewImpl {
                       validator: Validatorless.multiple([
                         Validatorless.required('Obrigatório'),
                         Validatorless.min(
-                            6, 'A senha deve conter pelo menos 6 caracteres'),
+                            6, 'Senha deve conter pelo menos 6 caracteres'),
                       ]),
                     ),
 // *            ESPAÇADOR
@@ -113,7 +113,7 @@ class _LoginPageState extends LoginViewImpl {
                     ),
 // *            ESPAÇADOR
                     const SizedBox(
-                      height: 20,
+                      height: 25,
                     ),
 // *            BOTÃO DE LOGIN
                     Button(

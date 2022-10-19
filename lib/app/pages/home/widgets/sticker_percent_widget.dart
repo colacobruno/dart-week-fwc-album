@@ -23,7 +23,7 @@ class StickerPercentWidget extends StatelessWidget {
           width: 70,
           height: 70,
           decoration: BoxDecoration(
-            color: context.colors.gray,
+            color: context.colors.grey,
             shape: BoxShape.circle,
           ),
 // ********************* Esse center é o que faz o número da % ir para o centro

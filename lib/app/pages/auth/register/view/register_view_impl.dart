@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
 import 'package:fwc_album_app/app/core/ui/helpers/loader.dart';
+import 'package:fwc_album_app/app/core/ui/helpers/messages.dart';
 import 'package:fwc_album_app/app/pages/auth/register/register_page.dart';
 
-import '../../../../core/ui/helpers/messages.dart';
 import './register_view.dart';
 
 abstract class RegisterViewImpl extends State<RegisterPage>
@@ -23,7 +23,7 @@ abstract class RegisterViewImpl extends State<RegisterPage>
   @override
   void registerSuccess() {
     hideLoader();
-    showSucess('Usuário cadastrado com sucesso');
+    showSuccess('Usuário cadastrado com sucesso');
     Navigator.of(context).pop();
   }
 }

@@ -24,7 +24,7 @@ class GlobalContextImpl implements GlobalContext {
     showTopSnackBar(
       navigatorKey.currentState!.context,
       CustomSnackBar.error(
-        message: 'Login expirado',
+        message: 'Login Expirado',
         backgroundColor: ColorsApp.i.primary,
       ),
       overlayState: navigatorKey.currentState!.overlay,

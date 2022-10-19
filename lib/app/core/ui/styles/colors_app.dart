@@ -13,11 +13,11 @@ class ColorsApp {
   Color get primary => const Color(0XFF791435);
   Color get secondary => const Color(0XFFFDCE50);
   Color get yellow => const Color(0XFFFDCE50);
-  Color get gray => const Color(0XFFCCCCCC);
+  Color get grey => const Color(0XFFCCCCCC);
   Color get greyDart => const Color(0XFF999999);
 }
 
 // * Para não ter que ficar usando Color.app.i.yellow, vamos criar uma extension
-extension ColorsAppExtensios on BuildContext {
+extension ColorsAppExtensions on BuildContext {
   ColorsApp get colors => ColorsApp.i;
 }

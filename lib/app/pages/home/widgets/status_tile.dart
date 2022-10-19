@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:fwc_album_app/app/core/ui/styles/colors_app.dart';
 import 'package:fwc_album_app/app/core/ui/styles/text_styles.dart';
 
@@ -24,7 +23,7 @@ class StatusTile extends StatelessWidget {
           width: 46,
           child: CircleAvatar(
             radius: 46,
-            backgroundColor: context.colors.gray,
+            backgroundColor: context.colors.grey,
             child: icon,
           ),
         ),
